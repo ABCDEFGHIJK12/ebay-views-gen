@@ -8,7 +8,7 @@ requests.packages.urllib3.disable_warnings()
 
 class Viewer(object):
 
-    url = str(raw_input("What is the url of the item? :"))
+    url = str(raw_input("https://www.ebay.com/itm/163535977504 :"))
 
     def view_item(self):
         headers1 = {
